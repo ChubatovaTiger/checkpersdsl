@@ -1,4 +1,3 @@
-
 import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.vcs.GitVcsRoot
 
@@ -33,16 +32,7 @@ project {
     buildType(A)
 }
 
-object A : BuildType({
-    name = "a"
 
-    //vcs {
-    //    root(HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup)
-
-    //    buildDefaultBranch = false
-    //}
-    vcsRoot(HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup)
-})
 
 object HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup : GitVcsRoot({
     name = "https://github.com/ChubatovaTiger/ChubatovaGradleTestsBackup"
