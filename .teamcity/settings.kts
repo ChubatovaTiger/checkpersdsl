@@ -1,4 +1,4 @@
-import jetbrains.buildServer.configs.kotlin.v2018_2.*
+import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.buildSteps.script
 import jetbrains.buildServer.configs.kotlin.vcs.GitVcsRoot
 
@@ -24,7 +24,7 @@ To debug in IntelliJ Idea, open the 'Maven Projects' tool window (View
 'Debug' option is available in the context menu for the task.
 */
 
-version = "2018.2"
+version = "2019.2"
 
 project {
 
@@ -76,4 +76,5 @@ object HttpsGithubComAChubatovaCheckpers : GitVcsRoot({
     name = "https://github.com/AChubatova/checkpers"
     url = "https://github.com/AChubatova/checkpers"
     branch = "refs/heads/main"
+    useMirrors=false
 })
