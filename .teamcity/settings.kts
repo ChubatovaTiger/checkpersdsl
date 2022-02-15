@@ -77,4 +77,6 @@ object HttpsGithubComAChubatovaCheckpers : GitVcsRoot({
     url = "https://github.com/AChubatova/checkpers"
     branch = "refs/heads/main"
     param("useAlternates", "true")
+    useMirrors= false
+    
 })
