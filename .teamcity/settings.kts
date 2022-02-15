@@ -61,7 +61,7 @@ object Positive : BuildType({
 
     steps {
         script {
-            scriptContent = "exit 0"
+            scriptContent = DslContext.getParameter(name = "a")
         }
         script {
             scriptContent = """
