@@ -24,7 +24,7 @@ To debug in IntelliJ Idea, open the 'Maven Projects' tool window (View
 'Debug' option is available in the context menu for the task.
 */
 
-version = "2021.2"
+version = "2018.2"
 
 project {
 
@@ -47,7 +47,7 @@ object Negative : BuildType({
 
     steps {
         script {
-            scriptContent = "exit 1"
+            scriptContent = "exit 1" //comment
         }
     }
 })
@@ -66,7 +66,7 @@ object Positive : BuildType({
         script {
             scriptContent = """
                 echo a
-                exit 3
+                exit 4
             """.trimIndent()
         }
     }
