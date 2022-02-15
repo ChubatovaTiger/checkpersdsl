@@ -25,15 +25,24 @@ To debug in IntelliJ Idea, open the 'Maven Projects' tool window (View
 'Debug' option is available in the context menu for the task.
 */
 
-version = "2021.2"
+version = "2028.2"
 
 project {
 
     vcsRoot(HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup)
-
+  buildType(A)
 }
 
+object A : BuildType({
+    name = "a"
 
+    vcs {
+        root(HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup)
+
+        buildDefaultBranch = false
+    }
+    //vcsRoot(HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup)
+})
 
 object HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup : GitVcsRoot({
     name = "https://github.com/ChubatovaTiger/ChubatovaGradleTestsBackup"
