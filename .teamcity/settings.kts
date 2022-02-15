@@ -29,7 +29,6 @@ project {
 
     vcsRoot(HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup)
 
-    buildType(A)
 }
 
 
