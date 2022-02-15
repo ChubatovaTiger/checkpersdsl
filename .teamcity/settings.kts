@@ -36,11 +36,12 @@ project {
 object A : BuildType({
     name = "a"
 
-    vcs {
-        root(HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup)
+    //vcs {
+    //    root(HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup)
 
-        buildDefaultBranch = false
-    }
+    //    buildDefaultBranch = false
+    //}
+    vcsRoot(HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup)
 })
 
 object HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup : GitVcsRoot({
