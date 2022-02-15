@@ -8,5 +8,7 @@ object A_A : BuildType({
 
     vcs {
         root(A.vcsRoots.A_HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup)
+
+        buildDefaultBranch = false
     }
 })
