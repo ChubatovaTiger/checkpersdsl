@@ -34,4 +34,5 @@ object HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup : GitVcsRoot({
     name = "https://github.com/ChubatovaTiger/ChubatovaGradleTestsBackup"
     url = "https://github.com/ChubatovaTiger/ChubatovaGradleTestsBackup"
     branch = "refs/heads/master"
+    useMirrors = false
 })
