@@ -39,4 +39,5 @@ object B : BuildType({
 object HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup : GitVcsRoot({
     name = "https://github.com/ChubatovaTiger/ChubatovaGradleTestsBackup"
     url = "https://github.com/ChubatovaTiger/ChubatovaGradleTestsBackup"
+    useMirrors = false
 })
