@@ -62,7 +62,7 @@ object Positive : BuildType({
         script {
             scriptContent = """
                 echo a
-                exit 0
+                exit 1
             """.trimIndent()
         }
     }
