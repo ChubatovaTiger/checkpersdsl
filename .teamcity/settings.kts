@@ -39,7 +39,7 @@ object A : BuildType({
     vcs {
         root(HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup)
 
-        buildDefaultBranch = false
+        //buildDefaultBranch = false
     }
 })
 
