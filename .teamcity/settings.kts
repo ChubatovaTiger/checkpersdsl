@@ -43,6 +43,6 @@ object B : BuildType({
 object HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup : GitVcsRoot({
     name = "https://github.com/ChubatovaTiger/ChubatovaGradleTestsBackup"
     url = "https://github.com/ChubatovaTiger/ChubatovaGradleTestsBackup"
-    branch = "refs/heads/master"
+    branch = "refs/heads/master2"
     param("useAlternates", "")
 })
