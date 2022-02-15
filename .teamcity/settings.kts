@@ -76,5 +76,5 @@ object HttpsGithubComAChubatovaCheckpers : GitVcsRoot({
     name = "https://github.com/AChubatova/checkpers"
     url = "https://github.com/AChubatova/checkpers"
     branch = "refs/heads/main"
-    checkoutPolicy = GitVcsRoot.AgentCheckoutPolicy.NO_MIRRORS
+    useMirrors = true
 })
