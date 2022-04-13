@@ -37,7 +37,7 @@ object BuildsNumberLimit_BuildsNumberLimit : BuildType({
     id("BuildsNumberLimit")
     name = "buildsNumberLimit"
 
-    maxRunningBuilds = 2
+    maxRunningBuilds = 0
     maxRunningBuildsPerBranch = """
         new-branch!+&#"*:1
         pull/*:2
