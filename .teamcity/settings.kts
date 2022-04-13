@@ -41,7 +41,7 @@ object BuildsNumberLimit_BuildsNumberLimit : BuildType({
     maxRunningBuildsPerBranch = """
         new-branch!+&#"*:1
         pull/*:2
-        *:0
+        *:3
     """.trimIndent()
 
     vcs {
